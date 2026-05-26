@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol Ingles</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav_container" aria-label="Navegación principal">
+            <div class="nav_info">
+                <h2 class="logo">Fútbol Ingles</h2>
+                <div class="mensaje_container">
+                    <div id="mensajeBienvenida" class="mensaje"></div>
+                    <select id="idioma">
+                        <option value="es">Español</option>
+                        <option value="en">Inglés</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="nav_links">
+                    <a href="#" class="link">Inicio</a>
+                    <div class="dropdown">
+                        <a href="#" class="link">Ciudades</a>
+                        <div class="submenu">
+                            <a href="#" class="link">Londres</a>
+                            <a href="#" class="link">Manchester</a>
+                            <a href="#" class="link">Liverpool</a>
+                            <a href="#" class="link">Birmingham</a>
+                            <a href="#" class="link">Andfield</a>
+                        </div>
+                    </div>
+                    <a href="#" class="link">Historia</a>
+                    <a href="#" class="link">Estadios</a>
+                    <div class="dropdown">
+                        <a href="#" class="link">Ligas</a>
+                        <div class="submenu">
+                            <a href="#" class="link">Premier League</a>
+                            <a href="#" class="link">Championship</a>
+                            <a href="#" class="link">League One</a>
+                            <a href="#" class="link">League Two</a>
+                        </div>
+                    </div>
+                    <a href="#" class="link">Hinchadas</a>
+                </div>
+        </nav>
+        <div class="hero_content">
+            <h1>Herencia del Futbol Ingles</h1>
+            <p>El legado de un increible deporte</p>
+        </div>
+        
+    </header>
+    <main class="container">
+        <section class="mapa_interactivo">
+            <div class="container_posiciones">
+                <h2 class="subtitulo_posiciones">Posiciones Premier League</h2>
+                <img src="imagenes/tabla-posiciones.webp" alt="imagen tabla de posiciones" class="Posiciones_imagen" width="600" height="400" loading="lazy">
+            </div>
+            <div class="container_mapa">
+                <h2 class="subtitulo_ciudades">Explora las Ciudades</h2>
+                <p class="copy_ciudades">Descubre las ciudades del futbol inglés</p>
+                <img src="imagenes/mapa-inglaterra.webp" alt="Imagen mapa de Inglaterra" class="mapa_ciudades" width="600" height="400" loading="lazy" >
+            </div>
+        </section>
+
+        <section class="Linea_tiempo">
+        <h2 class="subtitulo">Linea de Tiempo</h2>
+        <p class="copy">Explora la historia del futbol ingles en sus diferentes fechas historicas</p>
+
+        <div class="timeline_container">
+            <div class="timeline_item" data-aos="fade-up">
+                <h3>1863</h3>
+                <p>Creacion de la Football Association</p>
+            </div>
+            <div class="timeline_item" data-aos="fade-up">
+                <h3>1992</h3>
+                <p>Nace la Premier League</p>
+            </div>
+            <div class="timeline_item" data-aos="fade-up">
+                <h3>Actualidad</h3>
+                <p>La liga más popular del mundo</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="estadios_emblematicos">
+                <h2 class="subtitulo">Estadios Emblematicos</h2>
+                <p class="copy">Conoce los estadios más importantea de inglaterra</p>     
+                <div class="slider_container"> 
+                    <button class="slider_btn prev">❮</button>
+                <article class="container_card">
+                    <div class="card">
+                        <img src="imagenes/wembley-stadium.webp" alt="imagen estadio wembley" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Wembley Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/oldtrafford-stadium.webp" alt="imagen estadio oldtrafford" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Oldtrafford Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/anfield-stadium.webp" alt="imagen estadio anfield" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Anfield Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/emirates-stadium.webp" alt="imagen estadio emirates" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Emirates Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/etihad-stadium.webp" alt="imagen estadio etihad" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Etihad Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/Newcastle Stadium.webp" alt="imagen estadio newcastle" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Newcastle Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="imagenes/Tothenham Stadium.webp" alt="imagen estadio Tottenham" class="Estadio_img">
+                        <div class="card_text">
+                            <p class="card_list">Poner ubicacion del estadio</p>
+                            <h3 class="card_title">Tottenham Hotspur Stadium</h3>
+                            <a href="#" class="card_button">Conocer más</a>
+                        </div>
+                    </div>
+                </article>
+                <button class="slider_btn next">❯</button>
+            </div>
+        </section>
+
+        <section class="ligas_torneos">
+            <div class="container">
+                <h2 class="subtitulo">Competiciones en Inglaterra</h2>
+                <p class="copy">Conoce la historia de cada competion de la liga inglesa</p>
+            </div>
+                <div class="torneo" >
+                    <img src="imagenes/premier-league.webp" alt="imagen premier league" class="torneo_img" width="600" height="350" loading="lazy">
+                        <div class="torneo_text">
+                            <h3 class="title">Premier League</h3>
+                            <p class="date">Desde 1992</p>
+                            <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dolores id libero. Cumque reprehenderit necessitatibus est voluptatem nulla corporis ipsum rem fugiat facilis! Vitae dolore obcaecati mollitia, fugiat provident voluptatum! </p>
+                        </div>
+            </div>
+        </section>
+
+<section>
+    <h2 class="subtitulo">Historia de las Hinchadas</h2>
+    <p class="copy">Cultura y rivalidades del fútbol inglés</p>
+
+    <div class="container_hinchadas">
+
+        <div class="card_hinchadas">
+            <h3>Cultura de las hinchadas</h3>
+            <p>Las aficiones inglesas destacan por su pasión y tradición.</p>
+            <img src="imagenes/aficion-liverpool.webp" alt="Afición del Liverpool animando" width="600" height="400" loading="lazy">
+        </div>
+
+        <div class="card_hinchadas">
+            <h3>Manchester United vs Liverpool</h3>
+            <p>Una de las rivalidades más históricas del fútbol.</p>
+
+            <video controls aria-label="Video de hinchas del Manchester United">
+                <source src="videos/united.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+        <p>© 2026 Fútbol Inglés | Proyecto académico</p>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
